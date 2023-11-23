@@ -9,4 +9,6 @@ export const AtcoderLanks = {
   RED: "赤",
 } as const;
 
+export type AtcoderLank = keyof typeof AtcoderLanks;
+
 export const atcoderLankList = Object.values(AtcoderLanks);
